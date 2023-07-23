@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    border: 2px solid magenta;
+    justify-content: space-between;
+}
+
+
+
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
