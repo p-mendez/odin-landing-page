@@ -108,5 +108,11 @@ section .banner {
     height: 30px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
 
-
+footer p {
+    flex-shrink: 0;
+}
