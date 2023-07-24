@@ -26,9 +26,12 @@ main article {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid green; */
+    gap: 40px;
 }
 
-main article .right-half {
+
+article .right-half {
      height: 200px;
      width: 400px;
      background-color: slategray;
@@ -37,7 +40,11 @@ main article .right-half {
     align-items: center;
 }
 
+article > * {
+    /* border: 2px solid firebrick; */
+    flex-basis: 400px;
+}
+
 .right-half figure {
     color: white;
 }
-
