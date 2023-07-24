@@ -16,8 +16,15 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 15%;
+    align-items: center;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+    flex-shrink: 0;
+}
 
 .nav-list {
     display: flex;
@@ -30,7 +37,8 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 main article {
@@ -40,6 +48,12 @@ main article {
     /* border: 2px solid green; */
     gap: 40px;
     padding: 20px 15% 60px 15%;
+}
+
+article h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
 }
 
 article .right-half {
@@ -66,11 +80,18 @@ article > * {
     /* border: 2px solid rebeccapurple; */
     flex-wrap: wrap;
     padding: 0;
-    gap: 30px;
+    gap: 40px;
 }
 
 main .random-information {
-    padding: 20px 15% 60px 15%;
+    padding: 20px 15% 40px 15%;
+}
+
+.random-information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
 }
 
 .random-information ul li{
@@ -99,6 +120,9 @@ main .quote {
     flex-direction: column;
     align-items: center;
     /* border: 2px solid lime; */
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 0;
 }
 
 .quote-container blockquote,
@@ -109,6 +133,9 @@ main .quote {
 .quote figcaption {
     align-self:flex-end;
     margin-right: 40px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 section .banner {
@@ -120,7 +147,7 @@ section .banner {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 .button-style {
@@ -138,6 +165,7 @@ footer {
 
 footer p {
     flex-shrink: 0;
+    color: #E5E7EB;
 }
 
 .dark-background {
