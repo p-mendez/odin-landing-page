@@ -1,9 +1,15 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 header {
@@ -23,6 +29,7 @@ header {
 
 .nav-list a {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 main article {
@@ -122,4 +129,14 @@ footer {
 
 footer p {
     flex-shrink: 0;
+}
+
+.dark-background {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.grey-background {
+    background-color: #E5E7EB;
+    color: #1F2973;
 }
