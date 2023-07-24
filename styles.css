@@ -48,3 +48,26 @@ article > * {
 .right-half figure {
     color: white;
 }
+
+.random-information ul {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rebeccapurple; */
+    flex-wrap: wrap;
+    
+}
+
+.random-information ul li{
+    list-style: none;
+}
+
+.random-information figure {
+    width: 100px;
+
+}
+
+.square-frame {
+    border: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+}
