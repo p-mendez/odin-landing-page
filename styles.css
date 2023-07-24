@@ -40,12 +40,11 @@ main article {
     gap: 40px;
 }
 
-
 article .right-half {
-     height: 200px;
-     width: 400px;
-     background-color: slategray;
-     display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: slategray;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -114,7 +113,7 @@ section .banner {
     padding: 10px 40px;
 }
 
-.banner button {
+.button-style {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 1px solid #F9FAF8;
@@ -139,4 +138,8 @@ footer p {
 .grey-background {
     background-color: #E5E7EB;
     color: #1F2973;
+}
+
+.round-borders {
+    border-radius: 8px;
 }
